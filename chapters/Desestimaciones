@@ -1,0 +1,14 @@
+Desestimaciones
+
++ Página 4, Sección 1.3.2. "dentro de los procesos de recomendación" No aplica puesto que el componente de software no sabe que está detectando comunidades para apoyar un sistema de recomendación. Simplemente detecta.
+
++ Página 6, Sección 1.4.3 "full?" No, el término oficialmente acuñado para sistemas que siguen la filosofía REST es RESTful.
+
++ Página 29, encabezado del capítulo 4. "Tienes 5 métodos y ahora dices que tienes 1 servicio?". Si, el servicio tiene 5 endpoints.
+
+LO que falta:
+
+- Mas iteraciones OK
+- Describir los algoritmos OK
+- Cambiar la foto horrible OK
+- Apéndices Mañana

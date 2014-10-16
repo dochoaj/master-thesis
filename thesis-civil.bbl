@@ -1,0 +1,368 @@
+\begin{thebibliography}{57}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Adomavicius et~al.(2005)Adomavicius, Sankaranarayanan, Sen, \&
+  Tuzhilin}]{adomavicius_incorporating_2005}
+Adomavicius, G., Sankaranarayanan, R., Sen, S., \& Tuzhilin, A. (2005).
+\newblock Incorporating contextual information in recommender systems using a
+  multidimensional approach.
+\newblock {\em {ACM} Transactions on Information Systems ({TOIS})\/}, {\em
+  23\/}(1), 103–145.
+
+\bibitem[{Adomavicius \& Tuzhilin(2005)}]{adomavicius_toward_2005}
+Adomavicius, G., \& Tuzhilin, A. (2005).
+\newblock Toward the next generation of recommender systems: A survey of the
+  state-of-the-art and possible extensions.
+\newblock {\em Knowledge and Data Engineering, {IEEE} Transactions on\/}, {\em
+  17\/}(6), 734–749.
+
+\bibitem[{Adomavicius \& Tuzhilin(2011)}]{adomavicius_context-aware_2011}
+Adomavicius, G., \& Tuzhilin, A. (2011).
+\newblock Context-aware recommender systems.
+\newblock In {\em Recommender systems handbook\/}, (p. 217–253). Springer.
+
+\bibitem[{Andersen(2007)}]{andersen_what_2007}
+Andersen, P. (2007).
+\newblock {\em What is Web 2.0?: ideas, technologies and implications for
+  education\/}, vol.~1.
+\newblock {JISC} Bristol, {UK}.
+
+\bibitem[{Andersen \& Lang(2006)}]{andersen_communities_2006}
+Andersen, R., \& Lang, K.~J. (2006).
+\newblock Communities from seed sets.
+\newblock In {\em Proceedings of the 15th international conference on World
+  Wide Web\/}, (p. 223–232). {ACM}.
+
+\bibitem[{AP(2013)}]{ap_number_2013}
+AP (2013).
+\newblock Number of active users at facebook over the years.
+
+\bibitem[{Arab \& Afsharchi(2014)}]{arab_community_2014}
+Arab, M., \& Afsharchi, M. (2014).
+\newblock Community detection in social networks using hybrid merging of
+  sub-communities.
+\newblock {\em Journal of Network and Computer Applications\/}, {\em 40\/},
+  73–84.
+
+\bibitem[{Asur et~al.(2009)Asur, Parthasarathy, \&
+  Ucar}]{asur_event-based_2009}
+Asur, S., Parthasarathy, S., \& Ucar, D. (2009).
+\newblock An event-based framework for characterizing the evolutionary behavior
+  of interaction graphs.
+\newblock {\em {ACM} Transactions on Knowledge Discovery from Data ({TKDD})\/},
+  {\em 3\/}(4), 16.
+
+\bibitem[{Backstrom et~al.(2007)Backstrom, Dwork, \&
+  Kleinberg}]{backstrom_wherefore_2007}
+Backstrom, L., Dwork, C., \& Kleinberg, J. (2007).
+\newblock Wherefore art thou r3579x?: anonymized social networks, hidden
+  patterns, and structural steganography.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web\/}, (p. 181–190). {ACM}.
+
+\bibitem[{Bianco et~al.(2007)Bianco, Kotermanski, \&
+  Merson}]{bianco_evaluating_2007}
+Bianco, P., Kotermanski, R., \& Merson, P.~F. (2007).
+\newblock Evaluating a service-oriented architecture.
+\newblock {\em Software Engineering Institute, Carnegie Mellon University\/}.
+\newline\urlprefix\url{http://resources.sei.cmu.edu/library/asset-view.cfm?AssetID=8443}
+
+\bibitem[{Blondel et~al.(2008)Blondel, Guillaume, Lambiotte, \&
+  Lefebvre}]{blondel_fast_2008}
+Blondel, V.~D., Guillaume, J.-L., Lambiotte, R., \& Lefebvre, E. (2008).
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment\/}, {\em
+  2008\/}(10), P10008.
+
+\bibitem[{Bobadilla et~al.(2013)Bobadilla, Ortega, Hernando, \&
+  Gutiérrez}]{bobadilla_recommender_2013}
+Bobadilla, J., Ortega, F., Hernando, A., \& Gutiérrez, A. (2013).
+\newblock Recommender systems survey.
+\newblock {\em Knowledge-Based Systems\/}, {\em 46\/}, 109–132.
+
+\bibitem[{Brambilla et~al.(2011)Brambilla, Fraternali, \&
+  Vaca}]{brambilla_notation_2011}
+Brambilla, M., Fraternali, P., \& Vaca, C. (2011).
+\newblock A notation for supporting social business process modeling.
+\newblock In {\em Business Process Model and Notation\/}, (p. 88–102).
+  Springer.
+
+\bibitem[{Burke(2002)}]{burke_hybrid_2002}
+Burke, R. (2002).
+\newblock Hybrid recommender systems: Survey and experiments.
+\newblock {\em User modeling and user-adapted interaction\/}, {\em 12\/}(4),
+  331–370.
+
+\bibitem[{Chakrabarti \& Faloutsos(2006)}]{chakrabarti_graph_2006}
+Chakrabarti, D., \& Faloutsos, C. (2006).
+\newblock Graph mining: Laws, generators, and algorithms.
+\newblock {\em {ACM} Comput. Surv.\/}, {\em 38\/}(1), 2.
+
+\bibitem[{Csárdi \& Nepusz(2006)}]{csardi_igraph_2006}
+Csárdi, G., \& Nepusz, T. (2006).
+\newblock The igraph software package for complex network research.
+
+\bibitem[{Dourisboure et~al.(2007)Dourisboure, Geraci, \&
+  Pellegrini}]{dourisboure_extraction_2007}
+Dourisboure, Y., Geraci, F., \& Pellegrini, M. (2007).
+\newblock Extraction and classification of dense communities in the web.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web\/}, (p. 461–470). {ACM}.
+
+\bibitem[{Du et~al.(2007)Du, Wu, Pei, Wang, \& Xu}]{du_community_2007}
+Du, N., Wu, B., Pei, X., Wang, B., \& Xu, L. (2007).
+\newblock Community detection in large-scale social networks.
+\newblock In {\em Proceedings of the 9th {WebKDD} and 1st {SNA}-{KDD} 2007
+  workshop on Web mining and social network analysis\/}, (p. 16–25). {ACM}.
+
+\bibitem[{Ekstrand et~al.(2011)Ekstrand, Ludwig, Konstan, \&
+  Riedl}]{ekstrand_rethinking_2011}
+Ekstrand, M.~D., Ludwig, M., Konstan, J.~A., \& Riedl, J.~T. (2011).
+\newblock Rethinking the recommender research ecosystem: reproducibility,
+  openness, and {LensKit}.
+\newblock In {\em Proceedings of the fifth {ACM} conference on Recommender
+  systems\/}, (p. 133–140). {ACM}.
+
+\bibitem[{Gibson et~al.(2005)Gibson, Kumar, \&
+  Tomkins}]{gibson_discovering_2005}
+Gibson, D., Kumar, R., \& Tomkins, A. (2005).
+\newblock Discovering large dense subgraphs in massive graphs.
+\newblock In {\em Proceedings of the 31st international conference on Very
+  large data bases\/}, (p. 721–732). {VLDB} Endowment.
+
+\bibitem[{González(2012)}]{gonzalez_comparando_2012}
+González, A. (2012).
+\newblock {\em Comparando la funcionalidad y la usabilidad de dos aplicaciones
+  basado en un proceso de negocios de generación de noticias.\/}.
+\newblock Ph.D. thesis, Universidad de Santiago de Chile, Departamento de
+  Ingeniería Informática.
+
+\bibitem[{Guinard et~al.(2012)Guinard, Ion, \& Mayer}]{guinard_search_2012}
+Guinard, D., Ion, I., \& Mayer, S. (2012).
+\newblock In search of an internet of things service architecture: {REST} or
+  {WS}-*? a developers’ perspective.
+\newblock In {\em Mobile and Ubiquitous Systems: Computing, Networking, and
+  Services\/}, (p. 326–337). Springer.
+
+\bibitem[{Hechter(1988)}]{hechter_principles_1988}
+Hechter, M. (1988).
+\newblock {\em Principles of group solidarity\/}, vol.~11.
+\newblock Univ of California Press.
+
+\bibitem[{Hubler et~al.(2008)Hubler, Kriegel, Borgwardt, \&
+  Ghahramani}]{hubler_metropolis_2008}
+Hubler, C., Kriegel, H.-P., Borgwardt, K., \& Ghahramani, Z. (2008).
+\newblock Metropolis algorithms for representative subgraph sampling.
+\newblock In {\em Data Mining, 2008. {ICDM}'08. Eighth {IEEE} International
+  Conference on\/}, (p. 283–292). {IEEE}.
+
+\bibitem[{Java et~al.(2008)Java, Joshi, \& Finin}]{java_detecting_2008}
+Java, A., Joshi, A., \& Finin, T. (2008).
+\newblock Detecting communities via simultaneous clustering of graphs and
+  folksonomies.
+\newblock In {\em Proceedings of the Tenth Workshop on Web Mining and Web Usage
+  Analysis ({WebKDD})\/}. {ACM}.
+
+\bibitem[{Kerr(2012)}]{kerr_twitter_2012}
+Kerr, D. (2012).
+\newblock Twitter data shows trending topics tend to change rapidly.
+\newline\urlprefix\url{http://www.cnet.com/news/twitter-data-shows-trending-topics-tend-to-change-rapidly/}
+
+\bibitem[{Lam et~al.(2008)Lam, Vu, Le, \& Duong}]{lam_addressing_2008}
+Lam, X.~N., Vu, T., Le, T.~D., \& Duong, A.~D. (2008).
+\newblock Addressing cold-start problem in recommendation systems.
+\newblock In {\em Proceedings of the 2nd international conference on Ubiquitous
+  information management and communication\/}, (p. 208–211). {ACM}.
+
+\bibitem[{Leiva-Lobos \& Covarrubias(2002)}]{leiva-lobos_3-ontology:_2002}
+Leiva-Lobos, E.~P., \& Covarrubias, E. (2002).
+\newblock The 3-ontology: a framework to place cooperative awareness.
+\newblock In {\em Groupware: Design, Implementation, and Use\/}, (p.
+  189–199). Springer.
+
+\bibitem[{Leskovec \& Faloutsos(2006)}]{leskovec_sampling_2006}
+Leskovec, J., \& Faloutsos, C. (2006).
+\newblock Sampling from large graphs.
+\newblock In {\em Proceedings of the 12th {ACM} {SIGKDD} international
+  conference on Knowledge discovery and data mining\/}, (p. 631–636). {ACM}.
+
+\bibitem[{Lin et~al.(2007)Lin, Sundaram, Chi, Tatemura, \&
+  Tseng}]{lin_blog_2007}
+Lin, Y.-R., Sundaram, H., Chi, Y., Tatemura, J., \& Tseng, B.~L. (2007).
+\newblock Blog community discovery and evolution based on mutual awareness
+  expansion.
+\newblock In {\em Proceedings of the {IEEE}/{WIC}/{ACM} international
+  conference on web intelligence\/}, (p. 48–56). {IEEE} Computer Society.
+
+\bibitem[{Maiya \& Berger-Wolf(2010)}]{maiya_sampling_2010}
+Maiya, A.~S., \& Berger-Wolf, T.~Y. (2010).
+\newblock Sampling community structure.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web\/}, (p. 701–710). {ACM}.
+
+\bibitem[{Martin(2003)}]{martin_agile_2003}
+Martin, R.~C. (2003).
+\newblock {\em Agile software development: principles, patterns, and
+  practices\/}.
+\newblock Prentice Hall {PTR}.
+
+\bibitem[{Newman(2006)}]{newman_finding_2006}
+Newman, M.~E. (2006).
+\newblock Finding community structure in networks using the eigenvectors of
+  matrices.
+\newblock {\em Physical review E\/}, {\em 74\/}(3), 036104.
+
+\bibitem[{Padula et~al.(2009)Padula, Reggiori, \&
+  Capetti}]{padula_managing_2009}
+Padula, M., Reggiori, A., \& Capetti, G. (2009).
+\newblock Managing collective knowledge in the web 3.0.
+\newblock In {\em Evolving Internet, 2009. {INTERNET}'09. First International
+  Conference on\/}, (p. 33–38). {IEEE}.
+
+\bibitem[{Palla et~al.(2007)Palla, Barabási, \&
+  Vicsek}]{palla_quantifying_2007}
+Palla, G., Barabási, A.-L., \& Vicsek, T. (2007).
+\newblock Quantifying social group evolution.
+\newblock {\em Nature\/}, {\em 446\/}(7136), 664–667.
+
+\bibitem[{Palla et~al.(2005)Palla, Derényi, Farkas, \&
+  Vicsek}]{palla_uncovering_2005}
+Palla, G., Derényi, I., Farkas, I., \& Vicsek, T. (2005).
+\newblock Uncovering the overlapping community structure of complex networks in
+  nature and society.
+\newblock {\em Nature\/}, {\em 435\/}(7043), 814–818.
+
+\bibitem[{Palomino(2012)}]{palomino_modelo_2012}
+Palomino, M. (2012).
+\newblock {\em Modelo extensible para sistemas de recomendación en la Web
+  2.0\/}.
+\newblock Ph.D. thesis, Universidad de Santiago de Chile, Departamento de
+  Ingeniería Informática.
+
+\bibitem[{Papadopoulos et~al.(2009)Papadopoulos, Kompatsiaris, \&
+  Vakali}]{papadopoulos_leveraging_2009}
+Papadopoulos, S., Kompatsiaris, Y., \& Vakali, A. (2009).
+\newblock Leveraging collective intelligence through community detection in tag
+  networks.
+\newblock {\em {CKCaR}, September\/}.
+
+\bibitem[{Plantié \& Crampes(2013)}]{plantie_survey_2013}
+Plantié, M., \& Crampes, M. (2013).
+\newblock Survey on social community detection.
+\newblock In {\em Social Media Retrieval\/}, (p. 65–85). Springer.
+
+\bibitem[{Raghavan et~al.(2007)Raghavan, Albert, \&
+  Kumara}]{raghavan_near_2007}
+Raghavan, U.~N., Albert, R., \& Kumara, S. (2007).
+\newblock Near linear time algorithm to detect community structures in
+  large-scale networks.
+\newblock {\em Physical Review E\/}, {\em 76\/}(3), 036106.
+
+\bibitem[{Rosvall \& Bergstrom(2008)}]{rosvall_maps_2008}
+Rosvall, M., \& Bergstrom, C.~T. (2008).
+\newblock Maps of random walks on complex networks reveal community structure.
+\newblock {\em Proceedings of the National Academy of Sciences\/}, {\em
+  105\/}(4), 1118–1123.
+
+\bibitem[{Schlitter \& Falkowski(2009)}]{schlitter_mining_2009}
+Schlitter, N., \& Falkowski, T. (2009).
+\newblock Mining the dynamics of music preferences from a social networking
+  site.
+\newblock In {\em Social Network Analysis and Mining, 2009. {ASONAM}'09.
+  International Conference on Advances in\/}, (p. 243–248). {IEEE}.
+
+\bibitem[{Simpson(2008)}]{simpson_clustering_2008}
+Simpson, E. (2008).
+\newblock Clustering tags in enterprise and web folksonomies.
+\newblock In {\em {ICWSM}\/}.
+
+\bibitem[{Smith(2014)}]{smith_by_2014}
+Smith, C. (2014).
+\newblock By the numbers: 125 amazing facebook user statistics.
+\newline\urlprefix\url{http://expandedramblings.com/index.php/by-the-numbers-17-amazing-facebook-stats/}
+
+\bibitem[{Symeonidis et~al.(2011)Symeonidis, Papadimitriou, Manolopoulos,
+  Senkul, \& Toroslu}]{symeonidis_geo-social_2011}
+Symeonidis, P., Papadimitriou, A., Manolopoulos, Y., Senkul, P., \& Toroslu, I.
+  (2011).
+\newblock Geo-social recommendations based on incremental tensor reduction and
+  local path traversal.
+\newblock In {\em Proceedings of the 3rd {ACM} {SIGSPATIAL} International
+  Workshop on Location-Based Social Networks\/}, (p. 89–96). {ACM}.
+
+\bibitem[{Tang \& Liu(2010)}]{tang_community_2010}
+Tang, L., \& Liu, H. (2010).
+\newblock Community detection and mining in social media.
+\newblock {\em Synthesis Lectures on Data Mining and Knowledge Discovery\/},
+  {\em 2\/}(1), 1–137.
+
+\bibitem[{Tang et~al.(2012)Tang, Liu, \& Zhang}]{tang_identifying_2012}
+Tang, L., Liu, H., \& Zhang, J. (2012).
+\newblock Identifying evolving groups in dynamic multimode networks.
+\newblock {\em Knowledge and Data Engineering, {IEEE} Transactions on\/}, {\em
+  24\/}(1), 72–85.
+
+\bibitem[{Tang et~al.(2008)Tang, Liu, Zhang, \& Nazeri}]{tang_community_2008}
+Tang, L., Liu, H., Zhang, J., \& Nazeri, Z. (2008).
+\newblock Community evolution in dynamic multi-mode networks.
+\newblock In {\em Proceedings of the 14th {ACM} {SIGKDD} international
+  conference on Knowledge discovery and data mining\/}, (p. 677–685). {ACM}.
+
+\bibitem[{Tang et~al.(2009)Tang, Wang, \& Liu}]{tang_uncoverning_2009}
+Tang, L., Wang, X., \& Liu, H. (2009).
+\newblock Uncoverning groups via heterogeneous interaction analysis.
+\newblock In {\em Data Mining, 2009. {ICDM}'09. Ninth {IEEE} International
+  Conference on\/}, (p. 503–512). {IEEE}.
+
+\bibitem[{Tareen et~al.(2010)Tareen, Lee, \& Lee}]{tareen_synergy:_2010}
+Tareen, B.~K., Lee, J.-w., \& Lee, S.-g. (2010).
+\newblock Synergy: A workbench for collaborative filtering algorithms on user
+  interaction data.
+\newblock In {\em International Workshop on User Data Interoperability in the
+  Social Web\/}.
+\newline\urlprefix\url{http://ids.snu.ac.kr/w/images/8/8f/UDISW2010.pdf}
+
+\bibitem[{Traag \& Bruggeman(2009)}]{traag_community_2009}
+Traag, V., \& Bruggeman, J. (2009).
+\newblock Community detection in networks with positive and negative links.
+\newblock {\em Physical Review E\/}, {\em 80\/}(3), 036115.
+
+\bibitem[{Victor et~al.(2011)Victor, De~Cock, \& Cornelis}]{victor_trust_2011}
+Victor, P., De~Cock, M., \& Cornelis, C. (2011).
+\newblock Trust and recommendations.
+\newblock In {\em Recommender systems handbook\/}, (p. 645–675). Springer.
+
+\bibitem[{Vásquez(2014)}]{vasquez_modelo_2014}
+Vásquez, R. (2014).
+\newblock {\em Modelo de representación de datos para Sistemas de
+  Recomendación\/}.
+\newblock Ph.D. thesis, Universidad de Santiago de Chile, Departamento de
+  Ingeniería Informática.
+
+\bibitem[{Wasserman(1994)}]{wasserman_social_1994}
+Wasserman, S. (1994).
+\newblock {\em Social network analysis: Methods and applications\/}, vol.~8.
+\newblock Cambridge university press.
+
+\bibitem[{Yujie \& Licai(2010)}]{yujie_challenges_2010}
+Yujie, Z., \& Licai, W. (2010).
+\newblock Some challenges for context-aware recommender systems.
+\newblock In {\em Computer Science and Education ({ICCSE}), 2010 5th
+  International Conference on\/}, (p. 362–365). {IEEE}.
+
+\bibitem[{Zachary(1977)}]{zachary_information_1977}
+Zachary, W.~W. (1977).
+\newblock An information flow model for conflict and fission in small groups.
+\newblock {\em Journal of anthropological research\/}, (p. 452–473).
+
+\bibitem[{Zanker \& Jessenitschnig(2009)}]{zanker_case-studies_2009}
+Zanker, M., \& Jessenitschnig, M. (2009).
+\newblock Case-studies on exploiting explicit customer requirements in
+  recommender systems.
+\newblock {\em User Modeling and User-Adapted Interaction\/}, {\em 19\/}(1-2),
+  133–166.
+
+\end{thebibliography}

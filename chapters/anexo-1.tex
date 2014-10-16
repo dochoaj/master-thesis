@@ -1,0 +1,98 @@
+%--------Anexo 1
+%--------Daniel Ochoa John
+%--------07/06/2012
+
+\chapter{Casos de prueba relevantes}
+
+A continuación se expondrán tres casos de prueba del sistema que fueron considerados relevantes, se mostrará parte de la entrevista realizada al usuario bajo su consentimiento.
+
+\section{Primer caso de pruebas}
+
+Este caso de pruebas es un ejemplo del hecho de que un usuario no considera todos los factores suficientes para generar la lista de resultados esperados:
+
+\begin{table}[H]
+\begin{center}
+\caption[Datos de usuario \#1.]{Datos de usuario \#1.}
+\label{tab:anexo-tab1}
+\begin{tabular}{|l|>{\raggedright}p{4cm}|}
+\hline 
+Nombre de usuario: & Shamir S.\tabularnewline
+\hline 
+\hline 
+Edad: & 22 años.\tabularnewline
+\hline 
+Actividad en Facebook: & Muy Alta.\tabularnewline
+\hline 
+Actividad en Twitter: & Muy Alta.\tabularnewline
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+Pregunta: ¿Cuáles son los contactos o amigos en las Redes Sociales con los que usted piensa que se relaciona más? Nombre 10 en orden decreciente. (Resultados esperados)
+
+Respuesta: María Belén Cifuentes, Iván Abarca, Valeria Herrera, Jorge Sanhueza, Daniel Ochoa, Zamy Sade, Caracolita Santander, Rosi Bolger, Pauli Gaete, Nikole Abacá.
+
+Luego de utilizar la aplicación y obtener los resultados, se procede a realizar la siguiente pregunta: ¿Son los resultados que usted esperaba coincidentes con los proporcionados por la aplicación? La respuesta que el usuario entregó fue la siguiente: \textit{“La primera persona la tenía bastante segura, tanto por mis relaciones en ambas redes sociales con ella. Con respecto a los otros contactos no estaba muy seguro al momento de responder de con cuales poseía mayor relación, pero al ver las respuestas del programa creo que sí debería haber sido aquellos los de mi consideración. Casos que no mencioné en mi respuesta anterior se deben netamente a falta de consideración de distintos factores, como las fotografías, pero reitero creo que los resultados arrojados por el software son los correctos.”}
+ 
+Lo anterior muestra que el usuario no consideró factores al momento de generar la lista de contactos esperados. Esto afecta el resultado de las pruebas, ya que al momento de realizar la relación de contactos obtenidos con aquellos esperados, se obtiene un índice bajo. Sin embargo, el testimonio del usuario indica que la elaboración de la lista de resultados esperados no es acorde a la realidad y que debió pensarlo mejor.
+
+\section{Segundo caso de pruebas}
+
+Este caso de pruebas es un ejemplo que muestra la influencia que tiene en los resultados cuando un usuario se relaciona mucho con pocas personas y se solicita un número alto de resultados.
+
+\begin{table}[H]
+\begin{center}
+\caption[Datos de usuario \#2.]{Datos de usuario \#2.}
+\label{tab:anexo-tab2}
+\begin{tabular}{|l|>{\raggedright}p{4cm}|}
+\hline 
+Nombre de usuario: & Natalia H.\tabularnewline
+\hline 
+\hline 
+Edad: & 22 años.\tabularnewline
+\hline 
+Actividad en Facebook: & Alta.\tabularnewline
+\hline 
+Actividad en Twitter: & Baja.\tabularnewline
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+Pregunta: ¿Cuáles son los contactos o amigos en las Redes Sociales con los que usted piensa que se relaciona más? Nombre 10 en orden decreciente. (Resultados esperados)
+Respuesta: Angélica Armijo, Antonio Andes, Santiago Álamos, Katerina Vaccaro, Cristóbal Álamos, Daniel Ochoa, Lorena Escobar, Carla Beltrán, Ricardo Hassan, Miguel Hernández.
+
+Luego de utilizar la aplicación y obtener los resultados, se procede a realizar la siguiente pregunta: ¿Son los resultados que usted esperaba coincidentes con los proporcionados por la aplicación? La respuesta que el usuario entregó fue la siguiente: \textit{“De los 10 contactos,  cuatro pertenecen a mi lista de contactos esperados, tres son contactos con los que me he relacionado más este último mes, y los otros tres son contactos con los que no mantengo relación durante el último año. Lo que si hay que destacar es que con uno de los diez contactos nunca he mantenido relación, por lo que me parece extraño que aparezca en la lista.”}
+
+Lo que ha ocurrido en este caso es que Natalia sólo mantiene relación con siete contactos a través de sus Redes Sociales, esto implica que los tres contactos siguientes sean errados bajo su percepción. Sin embargo, efectivamente son cercanos ya que comparten muchas fotografías con ella y tienen muchos contactos en común, lo que implica que, a pesar de no ser una relación relevante, si aparezcan dentro de los diez contactos más cercanos.
+
+\section{Tercer caso de pruebas}
+
+Este caso de pruebas es un ejemplo que muestra que los usuarios no son conscientes de las relaciones que forman o mantienen en las Redes Sociales.
+
+\begin{table}[H]
+\begin{center}
+\caption[Datos de usuario \#3.]{Datos de usuario \#3.}
+\label{tab:anexo-tab3}
+\begin{tabular}{|l|>{\raggedright}p{4cm}|}
+\hline 
+Nombre de usuario: & Diego G.\tabularnewline
+\hline 
+\hline 
+Edad: & 22 años.\tabularnewline
+\hline 
+Actividad en Facebook: & Alta.\tabularnewline
+\hline 
+Actividad en Twitter: & Baja.\tabularnewline
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+Pregunta: ¿Cuáles son los contactos o amigos en las Redes Sociales con los que usted piensa que se relaciona más? Nombre 10 en orden decreciente. (Resultados esperados)
+Respuesta: Gonzalo Castillo, Felipe Rivera, Oscar Castillo, Macarena Valderrama, Carolina Poblete, Paz Cabezas, Daniel Ochoa, Miguel Hernández, Diego Trabucco, Fernando Valladares.
+
+Luego de utilizar la aplicación y obtener los resultados, se procede a realizar la siguiente pregunta: ¿Son los resultados que usted esperaba coincidentes con los proporcionados por la aplicación? La respuesta que el usuario entregó fue la siguiente: \textit{“Son similares a lo que esperaba, no lo pensé tan históricamente ni me di cuenta de la cantidad de relaciones que había hecho. Es bastante cercano a la realidad histórica virtual y pienso que está bien. De todas formas esto no intentaba representar las interacciones en la vida real.”}
+
+Diego no era consciente de las relaciones que ha formado en Redes Sociales, la mayoría de resultados esperados no aparecieron en la respuesta final debido a que no consideró muchas relaciones formadas a lo largo de su historia como usuario de \textit{Facebook} y \textit{Twitter}, las cuales han sido mucho más cercanas que las que mantiene en la actualidad.

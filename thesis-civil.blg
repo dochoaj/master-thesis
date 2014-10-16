@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis-civil.aux
+A level-1 auxiliary file: cubierta.aux
+A level-1 auxiliary file: chapters/gracias.aux
+A level-1 auxiliary file: chapters/dedicatoria.aux
+A level-1 auxiliary file: chapters/resumen.aux
+A level-1 auxiliary file: chapters/abstract.aux
+A level-1 auxiliary file: chapters/1-intro.aux
+A level-1 auxiliary file: chapters/2-marcoteorico.aux
+A level-1 auxiliary file: chapters/3-vision.aux
+A level-1 auxiliary file: chapters/3-servicio.aux
+A level-1 auxiliary file: chapters/4-arquitectura.aux
+A level-1 auxiliary file: chapters/5-experimentacionref.aux
+A level-1 auxiliary file: chapters/6-conclusion.aux
+The style file: apa-good.bst
+A level-1 auxiliary file: chapters/A1-glosario.aux
+A level-1 auxiliary file: chapters/A2-estructura.aux
+Database file #1: TesisMagister.bib
+Warning--can't use both volume and number fields in andersen_what_2007
+You've used 57 entries,
+            2804 wiz_defined-function locations,
+            900 strings with 15407 characters,
+and the built_in function-call counts, 36121 in all, are:
+= -- 3072
+> -- 1285
+< -- 57
++ -- 490
+- -- 423
+* -- 2411
+:= -- 5235
+add.period$ -- 191
+call.type$ -- 57
+change.case$ -- 471
+chr.to.int$ -- 57
+cite$ -- 58
+duplicate$ -- 2884
+empty$ -- 2699
+format.name$ -- 598
+if$ -- 7526
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 525
+newline$ -- 292
+num.names$ -- 228
+pop$ -- 1154
+preamble$ -- 1
+purify$ -- 369
+quote$ -- 0
+skip$ -- 1441
+stack$ -- 0
+substring$ -- 1413
+swap$ -- 1684
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 501
+warning$ -- 1
+while$ -- 212
+width$ -- 0
+write$ -- 757
+(There was 1 warning)

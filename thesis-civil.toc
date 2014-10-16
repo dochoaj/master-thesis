@@ -1,0 +1,75 @@
+\select@language {spanish}
+\contentsline {chapter}{\'Indice de Figuras}{viii}{chapter*.2}
+\contentsline {chapter}{\'Indice de Tablas}{x}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Antecedentes y motivaci\'on}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Descripci\'on del problema}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Soluci\'on propuesta}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Caracter\'isticas de la Soluci\'on}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Prop\'osito de la Soluci\'on}{4}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Objetivos y alcance del proyecto}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\'ificos}{5}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Alcances}{5}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Metodolog\'ia y herramientas de desarrollo}{6}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Metodolog\'ia}{6}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Herramientas de desarrollo}{7}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Resultados Obtenidos}{7}{section.1.6}
+\contentsline {section}{\numberline {1.7}Organizaci\'on del documento}{8}{section.1.7}
+\contentsline {chapter}{\numberline {2}Marco Te\IeC {\'o}rico}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Redes Sociales}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}An\'alisis de Redes Sociales}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Detecci\'on de Comunidades}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Sistemas de Recomendaci\'on}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}\textit {Context Aware}}{14}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}La L\'ogica de la 3-Ontology}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Resumen}{17}{section.2.6}
+\contentsline {chapter}{\numberline {3}Visi\IeC {\'o}n general de la soluci\IeC {\'o}n}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelamiento}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Modelamiento de interacciones}{19}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Modelamiento de la detecci\IeC {\'o}n de comunidades}{20}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}La 3-Ontology y las comunidades}{22}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Community Cache}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Primer nivel de \textit {cache}}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Segundo nivel de \textit {cache}}{26}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Componentes de \textit {software}}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Manejo de las interacciones}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Detecci\IeC {\'o}n de comunidades}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Persistencia de comunidades}{28}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Integraci\IeC {\'o}n de componentes}{28}{section.3.4}
+\contentsline {section}{\numberline {3.5}Resumen}{30}{section.3.5}
+\contentsline {chapter}{\numberline {4}Servicio para la detecci\IeC {\'o}n de comunidades}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Caracterizaci\IeC {\'o}n del Servicio}{31}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Descripci\IeC {\'o}n general}{31}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Arquitectura del Servicio}{32}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Algoritmos Utilizados}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Ejemplo de Funcionamiento}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resumen}{40}{section.4.4}
+\contentsline {chapter}{\numberline {5}Arquitectura y Dise\IeC {\~n}o de componente para RBox}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Descripci\IeC {\'o}n Arquitectural}{42}{section.5.1}
+\contentsline {section}{\numberline {5.2}Dise\IeC {\~n}o de Clases}{45}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Model}{45}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Wrapper}{45}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}\textit {Client}}{46}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Service}{47}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Converter}{47}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Impacto en el modelo actual}{48}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\textit {Event}os}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}DAO}{49}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Extensions}{49}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Comunicaci\IeC {\'o}n entre componentes}{50}{section.5.4}
+\contentsline {section}{\numberline {5.5}Resumen}{52}{section.5.5}
+\contentsline {chapter}{\numberline {6}Experimentaci\IeC {\'o}n}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}Descripci\IeC {\'o}n del experimento}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}Caracterizaci\IeC {\'o}n de \textit {data\textit {set}}}{54}{section.6.2}
+\contentsline {section}{\numberline {6.3}Resultados}{59}{section.6.3}
+\contentsline {section}{\numberline {6.4}Resumen}{66}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusiones}{68}{chapter.7}
+\contentsline {section}{\numberline {7.1}Respecto a los objetivos espec\IeC {\'\i }ficos}{68}{section.7.1}
+\contentsline {section}{\numberline {7.2}Aportes del trabajo}{72}{section.7.2}
+\contentsline {section}{\numberline {7.3}Trabajos futuros}{73}{section.7.3}
+\contentsline {section}{\numberline {7.4}Reflexiones Finales}{74}{section.7.4}
+\contentsline {chapter}{Referencias}{76}{chapter*.53}
+\contentsline {chapter}{Ap\IeC {\'e}ndice}{81}{section*.54}
+\contentsline {chapter}{\numberline {A}Glosario}{82}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Estructura del CD}{85}{appendix.Alph2}

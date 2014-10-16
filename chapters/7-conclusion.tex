@@ -1,0 +1,27 @@
+%--------Conclusión
+%--------Daniel Ochoa John
+%--------06/06/2012
+\chapter{Conclusiones}
+
+En este capítulo, se expondrán las conclusiones obtenidas luego de finalizado el proyecto. Se considerará un análisis respecto a los objetivos planteados, contrastados con los alcanzados realmente y se incluirá una sección con posibles recomendaciones a futuro para mejorar el sistema desarrollado.
+
+\section{Análisis de resultados}
+
+Se ha desarrollado una API o biblioteca que es capaz de encontrar los k-contactos más cercanos a un usuario de Redes Sociales, utilizando la información acerca de sus interacciones y relaciones, la cual está almacenada en los repositorios de información de \textit{Twitter} y \textit{Facebook}, cumpliendo el objetivo principal planteado en este trabajo.
+ 
+La biblioteca desarrollada cuenta con una efectividad al momento de encontrar y unir la información de contactos semejantes, que depende en gran parte del criterio utilizado por los usuarios para nombrarse en las Redes Sociales. Es decir, la herramienta es capaz de detectar usuarios semejantes, sólo verificando la similitud en el nombre que éstos ingresaron en la Red Social. Si se utiliza un sobrenombre o un nombre muy corto, el sistema no puede detectar similitud correctamente, generando dos contactos distintos. Es por esto que en las pruebas realizadas al sistema se ha encontrado que existe un 2\% de error al momento de detectar contactos semejantes.
+
+Al momento de calcular la cercanía entre los contactos y el usuario, el sistema cuenta con una efectividad alta, cercana al 80\%, avalada por las pruebas realizadas y analizadas en el capítulo seis.  Sin embargo, la cantidad de resultados que el sistema entregue afecta en un alto grado la percepción del usuario sobre la calidad misma de éstos. Por ejemplo, si el usuario se relaciona mucho con sólo cinco personas, y al sistema le solicita veinte resultados, los cinco primeros estarán de acuerdo, efectivamente, con la percepción del usuario respecto a resultados esperados. 
+
+No obstante es altamente probable que los siguientes quince le generen duda. Lo anterior se produce debido a que el sistema toma en cuenta criterios que son poco considerados por los usuarios al momento de idear una lista de contactos cercanos esperados, como son las fotografías y los amigos en común. La mayoría de éstos sólo piensa en los mensajes privados y en el chat al momento de pensar o concebir los resultados esperados. 
+
+El sistema desarrollado, al ser una biblioteca, soporta una completa integración con cualquier aplicación programada bajo la plataforma Java, como páginas JSP y aplicaciones JavaFX. Esto permite a los desarrolladores utilizar los servicios que el sistema provee en sus proyectos individuales; la cantidad de usos son variados y sólo dependen de la imaginación y la real necesidad del desarrollador.
+Se han analizado los métodos de interacción que los usuarios consideran más relevantes al momento de medir la cercanía con sus contactos. Además se han definido los comportamientos tipo de un usuario de Redes Sociales, permitiendo establecer el promedio de relaciones de alta cercanía que ellos establecen, el cual es de diez contactos.
+
+\section{Recomendaciones futuras}
+
+El sistema desarrollado es una primera aproximación a unir la información obtenida desde las Redes Sociales con la finalidad de establecer los contactos más cercanos a un usuario. Este sistema considera solamente a \textit{Facebook} y a \textit{Twitter} como fuentes de datos para medir una relación. El gran auge que han tenido las Redes Sociales indica que el paso evolutivo natural para el sistema es ser escalable y complementar los datos ya obtenidos con otras Redes Sociales, permitiendo una mayor precisión respecto al cálculo de la cercanía entre contactos.
+
+Una extensión clave y muy necesaria es incorporar la información de la \textit{timeline} de \textit{Facebook}, una vez que esta haya sido completamente implementada. Esto permitirá cumplir con todas las expectativas de los usuarios respecto a la calidad de las relaciones, puesto que \textit{timeline} es un medio de interacción muy valorado, según se muestra en la encuesta realizada en el capítulo tres.
+ 
+Finalmente, se pueden establecer criterios complementarios para encontrar contactos similares. Actualmente el sistema sólo considera el nombre de los contactos para establecer similitud, lo cual tiene limitaciones, como se mencionó en el apartado anterior. Al utilizar criterios complementarios se puede establecer semejanza considerando factores más allá de los que involucran intrínsecamente a los contactos, sino que también involucra al contexto social que éstos poseen, como amigos en común, historial de estudios, pasatiempos similares, entre otros.

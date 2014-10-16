@@ -1,0 +1,28 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Estrategias utilizadas para la detecci\IeC {\'o}n de comunidades.}}{35}{table.caption.11}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Servicios que implementan el manejo de la detecci\IeC {\'o}n de comunidades en el Club de Karate de Zachary.}}{36}{table.caption.12}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Definici\IeC {\'o}n por extensi\IeC {\'o}n de las comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {\textit {Multilevel}}.\relax }}{38}{table.caption.15}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Definici\IeC {\'o}n por extensi\IeC {\'o}n de las comunidades detectadas en el Club de Karate mediante una ejecuci\IeC {\'o}n del m\IeC {\'e}todo \textit {Label Propagation}.\relax }}{38}{table.caption.17}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Definici\IeC {\'o}n por extensi\IeC {\'o}n de las comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {Spinglass}.\relax }}{39}{table.caption.19}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Definici\IeC {\'o}n por extensi\IeC {\'o}n de las comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {LeadingEigenvector}.\relax }}{40}{table.caption.21}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Definici\IeC {\'o}n por extensi\IeC {\'o}n de las comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {Infomap}.\relax }}{40}{table.caption.23}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Clases involucradas en la composici\IeC {\'o}n de \textit {Model}.\relax }}{45}{table.caption.25}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Clases involucradas en la composici\IeC {\'o}n de \textit {Wrapper}.\relax }}{46}{table.caption.26}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Clases involucradas en la composici\IeC {\'o}n de \textit {\textit {Client}}.\relax }}{46}{table.caption.27}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Clases involucradas en la composici\IeC {\'o}n de \textit {Service}.\relax }}{47}{table.caption.28}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Clases involucradas en la composici\IeC {\'o}n de \textit {Converter}.\relax }}{48}{table.caption.29}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Hash\textit {tags} particulares de cada pa\IeC {\'\i }s durante la copa mundial de la FIFA en \textit {Twitter}.\relax }}{55}{table.caption.34}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Cuantificaci\IeC {\'o}n del \textit {data\textit {set}} de la copa mundial de la FIFA.\relax }}{55}{table.caption.35}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Top 3 de usuarios con mas \textit {tweets} que consideran menciones a otros usuarios.\relax }}{55}{table.caption.36}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Distribuci\IeC {\'o}n de eventos \textit {mention} en el \textit {dataset}.\relax }}{60}{table.caption.43}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Usuarios seleccionados, n\IeC {\'u}mero de menciones y alias para experimento.\relax }}{60}{table.caption.44}
+\contentsline {table}{\numberline {6.6}{\ignorespaces An\IeC {\'a}lisis de varianza de factor simple.\relax }}{66}{table.caption.52}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

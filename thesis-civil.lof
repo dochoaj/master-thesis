@@ -1,0 +1,42 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces \em L\IeC {\'o}gica de la 3-Ontology, extra\IeC {\'\i }do de Leiva-Lobos & Covarrubias (2002).\relax }}{17}{figure.caption.4}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces \em Modelo conceptual de RBox, extra\IeC {\'\i }do de V\IeC {\'a}squez (2013). \relax }}{18}{figure.caption.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces \em Interfaz Event del c\IeC {\'o}digo fuente de RBox.\relax }}{21}{figure.caption.6}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces \em Interfaz Community del c\IeC {\'o}digo fuente de RBox.\relax }}{23}{figure.caption.7}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces \em Flujo propuesto por RBox para llevar a cabo una recomendaci\IeC {\'o}n.\relax }}{24}{figure.caption.8}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces \em Diagrama conceptual de integraci\IeC {\'o}n de los componentes de \textit {software}.\relax }}{29}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces \em Arquitectura del servicio de detecci\IeC {\'o}n de comunidades.\relax }}{34}{figure.caption.10}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces \em Grafo que representa al Club de Karate de Zachary.\relax }}{37}{figure.caption.13}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces \em Comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {\textit {Multilevel}}.\relax }}{37}{figure.caption.14}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces \em Comunidades detectadas en el Club de Karate mediante una ejecuci\IeC {\'o}n del m\IeC {\'e}todo \textit {Label Propagation}.\relax }}{38}{figure.caption.16}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces \em Comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {Spinglass}.\relax }}{39}{figure.caption.18}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces \em Comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {LeadingEigenvector}.\relax }}{39}{figure.caption.20}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces \em Comunidades detectadas en el Club de Karate mediante el m\IeC {\'e}todo \textit {Infomap}.\relax }}{40}{figure.caption.22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5-1}{\ignorespaces \em Diagrama que representa la arquitectura formada por los componentes de RBox.\relax }}{43}{figure.caption.24}
+\contentsline {figure}{\numberline {5-2}{\ignorespaces \em Diagrama con la comunicaci\IeC {\'o}n entre los componentes de \textit {Community Discover}\relax }}{48}{figure.caption.30}
+\contentsline {figure}{\numberline {5-3}{\ignorespaces \em C\IeC {\'o}digo que muestra la interfaz que debe implementar todo servicio de detecci\IeC {\'o}n de comunidades.\relax }}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {5-4}{\ignorespaces \em C\IeC {\'o}digo que muestra la interacci\IeC {\'o}n entre los distintos componentes del servicio.\relax }}{51}{figure.caption.32}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6-1}{\ignorespaces \em Ciclo de recomendaci\IeC {\'o}n en RBox.\relax }}{54}{figure.caption.33}
+\contentsline {figure}{\numberline {6-2}{\ignorespaces \em Grafo de interacciones generado por el usuario 1.\relax }}{56}{figure.caption.37}
+\contentsline {figure}{\numberline {6-3}{\ignorespaces \em Grafo de interacciones generado por el usuario 2.\relax }}{56}{figure.caption.38}
+\contentsline {figure}{\numberline {6-4}{\ignorespaces \em Grafo de interacciones generado por el usuario 3.\relax }}{57}{figure.caption.39}
+\contentsline {figure}{\numberline {6-5}{\ignorespaces \em Comunidades detectadas en base al grafo de interacciones generado por el usuario 1.\relax }}{57}{figure.caption.40}
+\contentsline {figure}{\numberline {6-6}{\ignorespaces \em Comunidades detectadas en base al grafo de interacciones generado por el usuario 2.\relax }}{58}{figure.caption.41}
+\contentsline {figure}{\numberline {6-7}{\ignorespaces \em Comunidades detectadas en base al grafo de interacciones generado por el usuario 3.\relax }}{58}{figure.caption.42}
+\contentsline {figure}{\numberline {6-8}{\ignorespaces \em Tiempos promedio (ms) requeridos para realizar una recomendaci\IeC {\'o}n a Ui en E1.\relax }}{61}{figure.caption.45}
+\contentsline {figure}{\numberline {6-9}{\ignorespaces \em Tiempos promedio (ms) requeridos para realizar una recomendaci\IeC {\'o}n a Ui en E2.\relax }}{62}{figure.caption.46}
+\contentsline {figure}{\numberline {6-10}{\ignorespaces \em Tr (ms) para U1 en E2.\relax }}{63}{figure.caption.47}
+\contentsline {figure}{\numberline {6-11}{\ignorespaces \em Tiempos promedio (ms) requeridos para realizar una recomendaci\IeC {\'o}n a Ui en E3.\relax }}{64}{figure.caption.48}
+\contentsline {figure}{\numberline {6-12}{\ignorespaces \em Tr (ms) para T0, T10 y AVG en E1.\relax }}{65}{figure.caption.49}
+\contentsline {figure}{\numberline {6-13}{\ignorespaces \em Tr (ms) para T0, T10 y AVG en E2.\relax }}{65}{figure.caption.50}
+\contentsline {figure}{\numberline {6-14}{\ignorespaces \em Tr (ms) para T0, T10 y AVG en E3.\relax }}{66}{figure.caption.51}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B-1}{\ignorespaces \em Directorios del CD.\relax }}{85}{figure.caption.55}

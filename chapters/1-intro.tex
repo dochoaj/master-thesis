@@ -1,0 +1,131 @@
+%--------Introducción
+%--------Daniel Ochoa John
+%--------19/07/2014
+
+\chapter{Introducci\'on}
+\label{cap:intro}
+
+El objetivo de este capítulo es presentar el problema y la propuesta de la solución de la detección de comunidades emergentes desde las interacciones sociales en la Web 2.0 usando el \textit{framework} de eventos de la 3-Ontology. La propuesta es incorporar la dimensión de la comunidad en el \textit{framework} para crear sistemas de recomendación llamado RBox.
+
+\section{Antecedentes y motivaci\'on}
+\label{intro:motivacion}
+
+Vivimos en un mundo donde la cotidianidad ha sido invadida por distintos aparatos tecnológicos inteligentes, que han permitido a las personas acceder a la Web en cualquier momento y en cualquier lugar. Esto, sumado a la envolvente aparición de la Web 2.0, implica que los usuarios de Internet ya no solo se dedican a consumir información, sino que, muy por el contrario, ahora asumen roles como actores determinantes en la generación de contenidos (Andersen, 2007). Ciertamente, las barreras que antes existían entre ser productor y consumidor de información han caído, empoderando a los usuarios a ser un agente activo en el flujo de la información. La Web 2.0, en definitiva, ha propiciado una forma diferente de usar la Web como canal de comunicación (Padula, Reggiori, & Capetti, 2009).
+
+El uso masivo de aplicaciones móviles, Web y todo tipo de aplicaciones sociales en general ha provocado que Internet almacene una enorme cantidad de información. Esto ha generado un problema para los millones de usuarios de la Web, ya que es complejo acceder a información que sea acorde con los gustos e intereses particulares para cada uno de ellos. En ese sentido, el asistir a los usuarios de Internet a filtrar y discriminar información relevante, ha sido una de las principales motivaciones de investigadores de las ciencias de la información, principalmente enfocándose en dos grandes áreas: los motores de búsqueda y los sistemas de recomendación.  Estos últimos filtran la información de acuerdo a distintas dimensiones (Adomavicius & Tuzhilin, 2011), como la confiabilidad y el prestigio de los usuarios (Victor, De Cock, & Cornelis, 2011), geolocalización (Symeonidis, Papadimitriou, Manolopoulos, Senkul, & Toroslu, 2011) y el contexto de interacción (Adomavicius & Tuzhilin, 2011) y a una serie de directrices, que van desde el comportamiento de otros usuarios, preferencias explicitadas en el pasado propias, ajenas y aquellas tipificadas por las comunidades en las que un usuario participa (Arab & Afsharchi, 2014).
+
+Comunidades online como \textit{Twitter}, \textit{Facebook} y \textit{YouTube} han tenido un crecimiento notable durante los últimos años, e incluso son posicionados entre los sitios más visitados de Internet. En estas plataformas, los usuarios pueden crear, explorar y compartir de diversas formas (Brambilla, Fraternali, & Vaca, 2011) con distintos grupos de manera explícita, como en \textit{Facebook} o Google+ o implícita, como en \textit{Twitter}.  Una manera de explicitar las comunidades existentes en un entorno colaborativo social es mediante la detección de comunidades (en inglés, \textit{community detection}). Una comunidad típicamente se define como un conjunto de individuos que tienen propiedades en común (Du, Wu, Pei, Wang, & Xu, 2007) y para detectarlas existen diversas técnicas y algoritmos (Plantié & Crampes, 2013).
+
+Las aplicaciones de la detección de comunidades son diversas. Entre ellas se puede encontrar el análisis temporal de las comunidades online, como los bloggers o los sistemas de recomendación de medios digitales (Lin, Sundaram, Chi, Tatemura, & Tseng, 2007; Schlitter & Falkowski, 2009), en donde interesa conocer las correlaciones temporales entre los usuarios y sus relaciones. Además, es posible conocer los tipos de transformaciones (Palla, Barabási, Vicsek, & Hungary, 2007) que tiene una comunidad en el tiempo: compresiones, contracciones y divisiones. Es posible, también, analizar la detección de tópicos en sistemas de etiquetado colaborativos, para detectar los temas más relevantes que son tocados al interior de una comunidad, en base a taxonomías o folksonomías (Simpson, 2008; Papadopoulos, Kompatsiaris, & Vakali, 2009). Por lo que es relevante contar con la información de las comunidades al momento de realizar una recomendación.
+
+\section{Descripci\'on del problema}
+\label{intro:problema}
+
+En un contexto de interacción social se forman diversas comunidades de usuarios en base a distintos intereses o temas. Esas comunidades no siempre están visibles ni disponibles para su uso en las aplicaciones de la Web 2.0. Además, estas comunidades pueden estar de manera latente y en respuesta a contenido recientemente popular y son información que los sistemas de recomendación podrían utilizar para mejorar su desempeño.
+
+En concreto, al momento de generar una recomendación, es necesario procesar y detectar cada vez esas comunidades latentes, con la implicancia de que en cada ejecución del algoritmo de recomendación se destinen recursos computacionales a detectar comunidades que ya han sido identificadas en iteraciones anteriores, aumentando innecesariamente el tiempo de respuesta necesario para otorgar una recomendación. Luego, la pregunta de investigación precisa de esta tesis es la siguiente: ¿es posible mejorar el desempeño de los sistemas de recomendación pre computando de comunidades implicadas en la recomendación?.
+
+\section{Soluci\'on propuesta}
+\label{intro:solucion}
+
+Este proyecto de investigación es del tipo Investigación Aplicada I+D (Investigación y Desarrollo):
+
+\begin{enumerate}
+  \item \textbf{Investigación:} Como hipótesis científica, este trabajo plantea que contar con un mecanismo de \textit{‘cache’} para manejar las comunidades detectadas en ejecuciones previas de un sistema de recomendación, permite mejorar el tiempo de respuesta necesario para otorgar una recomendación.
+  \item \textbf{Desarrollo:} Se diseñará y construirá una arquitectura orientada a servicios, que faculte a RBox 2.0 (Vasquez, 2014) a manejar la detección de comunidades y la construcción de sistemas de recomendación que consideren a esta dimensión dentro de la 3-Ontology.
+\end{enumerate}
+
+\subsection{Caracter\'isticas de la Soluci\'on}
+
+Las características de la solución son las siguientes:
+
+\begin{itemize}
+  \item Un componente de \textit{software} que hace uso del API que provee RBox, basado en patrones de diseño acordes con la implementación ya realizada.
+  \item Un sistema orientado a servicios que posibilite la detección de comunidades aplicando diferentes enfoques.
+  \item La disponibilización de un dataset inédito, que será utilizado como base para su mapeo al esquema 3-Ontology.
+  \item Prueba de tiempo de ejecución aplicando distintos métodos de detección de comunidades, en un sistema de recomendación generado con RBox.
+\end{itemize}
+
+\subsection{Prop\'osito de la Soluci\'on}
+
+\begin{itemize}
+  \item Proveer un componente de \textit{software} extensible, cuyo foco sea el análisis de comunidades y, en particular, la detección de comunidades.
+  \item Añadir a la arquitectura de RBox un componente de \textit{software} que sea capaz de consumir este servicio, permitiendo así la implementación de procedimientos que hagan uso de la dimensión comunidad.
+  \item Extender la herramienta RBox, otorgando al área de los SR una herramienta que se empodera cada vez más en el uso del darse-cuenta colaborativo en el esquema basado en eventos propuesto por Leiva-Lobos y Covarrubias (2002).
+\end{itemize}
+
+\section{Objetivos y alcance del proyecto}
+\label{intro:objetivos}
+
+A continuación se presenta el objetivo general del proyecto, el cual se lleva a puerto a través del cumplimiento de los diversos objetivos específicos. Además, se declaran los alcances del trabajo de tesis.
+
+\subsection{Objetivo general}
+
+Detectar comunidades implícitas que se forman a través de las interacciones de los usuarios en la Web social para conseguir sistemas de recomendación más eficientes utilizando el \textit{framework} que provee Rbox 2.0.
+
+\subsection{Objetivos espec\'ificos}
+
+
+\begin{enumerate}
+  \item Seleccionar técnicas y/o algoritmos que permitan la detección de comunidades.
+  \item Definir la arquitectura del servicio que se añadirá a RBox 2.0, junto con un proceso de encapsulamiento de los datos del \textit{framework} para estandarizar el consumo del servicio.
+  \item Implementar y añadir a RBox 2.0 un servicio que detecte y persista las comunidades (\textit{community cache}) a partir de los datos encapsulados.
+  \item Implementar un algoritmo de recomendación utilizando la información de las comunidades como antecedente, para registrar el tiempo de respuesta requerido para entregar una recomendación.
+  \item Analizar tiempos de respuesta obtenidos al monento de generar recomendaciones, con la finalidad de confirmar o descartar la hipótesis planteada.
+  \item Desarrollar conclusiones en relación a los resultados obtenidos.
+  \item Publicar los resultados en una revista de la especialidad.
+\end{enumerate}
+
+\subsection{Alcances}
+
+El trabajo de tesis propuesto tiene los siguientes alcances:
+
+\begin{itemize}
+  \item Contempla solamente la dimensión de la comunidad de la 3-Ontology y en particular, la detección de comunidades.
+  \item Se basa  en la definición de SR y alcances establecidos en la tesis de Magíster de Vásquez (2014).
+  \item Solamente se validará con el dataset generado, y que está basado en la red social \textit{Twitter}, no obstante todos los modelos realizados serán genéricos, para cualquier red social.
+  \item El producto de \textit{software} será construído en base a las definiciones y estándares ya definidos en RBox.
+  \item La implementación del servicio de análisis de comunidades será de tipo RESTful y será independiente de RBox.
+  \item La implementación de componentes para RBox hereda las limitantes y alcances ya definidos respecto al entorno de ejecución.
+\end{itemize}
+
+\section{Metodolog\'ia y herramientas de desarrollo}
+\label{intro:metodologia}
+
+\subsection{Metodolog\'ia}
+La metodología usada para este trabajo, como se explicó anteriormente, tiene que ver en el contexto de un proyecto de investigación aplicado I+D.
+
+En el ámbito de la investigación se realizará una prueba empírica respecto del tiempo de ejecución de un sistema de recomendación, bajo una estrategia de comienzo en frío (Lam, Vu, Le, & Duong, 2008), y que considere la dimensión de la comunidad. El proceso y el detalle involucrado en la recomendación y en la detección de comunidades propiamente tal será detallado en el Capítulo \ref{cap:arquitectura}.
+
+En el ámbito del desarrollo, la metodología de desarrollo está basada en la filosofía ágil de SCRUM. Sin roles explícitamente definidos al tratarse de un trabajo personal. La necesidad de la agilidad tiene que ver con la volatilidad de los requerimientos y las variaciones sobre la marcha en la arquitectura, luego y de esta forma, se tiene la flexibilidad suficiente para abordar cambios a lo largo del desarrollo. La documentación que se genera es la mínima indispensable:
+
+\begin{itemize}
+  \item Documentación del código mediante Javadocs.
+  \item Diseño de arquitectura.
+\end{itemize}
+
+\subsection{Herramientas de desarrollo}
+
+Las herramientas que fueron usadas para la realización de este trabajo de tesis son las siguientes:
+
+\begin{itemize}
+  \item \textbf{Linux/Elementary OS Luna y Mac OSX 10.9.3}, como soportes del ambiente de desarrollo.
+  \item \textbf{Java SE Development Kit 7}, para el desarrollo del \textit{software}. Su uso hereda de la decisión tomada en el desarrollo de RBox, basándose en la extensibilidad definida en la herramienta.
+  \item \textbf{Sublime Text 2/3 y Netbeans IDE}, como apoyo al desarrollo de las aplicaciones.
+  \item \textbf{Bitbucket}, como repositorio de código GIT.
+  \item \textbf{Python 2.7 y Flask}, como entornos de desarrollo del servicio RESTful.
+  \item \textbf{igraph}, como librería especializada en el análisis de grafos.
+  \item \textbf{TeXstudio}, como herramienta para la construcción de documentos en LaTeX.
+  \item \textbf{Notebook MacBook Pro Mid 2012}, Intel Core i5 2.5 GHz, 4 GB 1600 MHz DDR3.
+  \item \textbf{Notebook Lenovo Ideapad Y500}, Intel Core i7 3630QM (2400 MHz - 3400 MHz), 8 GB 1600 MHz DDR3.
+\end{itemize}
+
+\section{Resultados Obtenidos}
+\label{intro:resultados}
+
+Se ha definido un \textit{framework} compuesto de una arquitectura orientada a servicios y un componente de \textit{software} añadido a RBox. Estas piezas de \textit{software}, permiten realizar una detección de comunidades a partir de un grafo de interacciones sociales para luego retroalimentar el esquema de 3-Ontology con las comunidades detectadas a partir de recomendaciones realizadas. Esto permite que, al volver a generar una recomendación similar, el tiempo de ejecución necesario para que esta recomendación se complete se reduzca, mediante el uso de una estrategia de persistencia (\textit{community cache}).
+
+\section{Organizaci\'on del documento}
+\label{intro:organizacion}
+
+El documento se organiza como sigue. En el Capítulo 2 se presenta un marco teórico en donde se exponen los fundamentos conceptuales del trabajo, como detección de comunidades, la 3-Ontology y la descripción de los trabajos realizados anteriormente en el equipo de desarrollo de la universidad. Como antecedente del desarrollo de la solución presentada en esta tesis, en el Capítulo 3 se analizan los distintos componentes que dan forma a la plataforma tecnológica que apoya la experimentación requerida para alcanzar el objetivo general. Luego, en el Capítulo 4, se presenta el primer componente de \textit{software} desarrollado como producto de este trabajo: un servicio para la detección de comunidades. Posteriormente, en el Capítulo 5, se describe arquitecturalmente un componente de \textit{software} que integra a RBox el servicio de detección de comunidades y permite la persistencia y retroalimentación de las comunidades detectadas a partir de una recomendación. En el Capítulo 6 se describe y muestran los resultados del experimento definido para evidenciar el cumplimiento del objetivo general que este trabajo de tesis plantea. Finalmente, en el Capítulo 7 se presentan las conclusiones obtenidas a partir de este trabajo.

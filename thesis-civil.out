@@ -1,0 +1,74 @@
+\BOOKMARK [0][]{chapter*.2}{\315ndice de Figuras}{}% 1
+\BOOKMARK [0][]{chapter*.3}{\315ndice de Tablas}{}% 2
+\BOOKMARK [0][]{chapter.1}{1 Introducci\363n}{}% 3
+\BOOKMARK [1][]{section.1.1}{1.1 Antecedentes y motivaci\363n}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.2}{1.2 Descripci\363n del problema}{chapter.1}% 5
+\BOOKMARK [1][]{section.1.3}{1.3 Soluci\363n propuesta}{chapter.1}% 6
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Caracter\355sticas de la Soluci\363n}{section.1.3}% 7
+\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Prop\363sito de la Soluci\363n}{section.1.3}% 8
+\BOOKMARK [1][]{section.1.4}{1.4 Objetivos y alcance del proyecto}{chapter.1}% 9
+\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Objetivo general}{section.1.4}% 10
+\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 Objetivos espec\355ficos}{section.1.4}% 11
+\BOOKMARK [2][]{subsection.1.4.3}{1.4.3 Alcances}{section.1.4}% 12
+\BOOKMARK [1][]{section.1.5}{1.5 Metodolog\355a y herramientas de desarrollo}{chapter.1}% 13
+\BOOKMARK [2][]{subsection.1.5.1}{1.5.1 Metodolog\355a}{section.1.5}% 14
+\BOOKMARK [2][]{subsection.1.5.2}{1.5.2 Herramientas de desarrollo}{section.1.5}% 15
+\BOOKMARK [1][]{section.1.6}{1.6 Resultados Obtenidos}{chapter.1}% 16
+\BOOKMARK [1][]{section.1.7}{1.7 Organizaci\363n del documento}{chapter.1}% 17
+\BOOKMARK [0][]{chapter.2}{2 Marco Te\363rico}{}% 18
+\BOOKMARK [1][]{section.2.1}{2.1 Redes Sociales}{chapter.2}% 19
+\BOOKMARK [1][]{section.2.2}{2.2 An\341lisis de Redes Sociales}{chapter.2}% 20
+\BOOKMARK [1][]{section.2.3}{2.3 Detecci\363n de Comunidades}{chapter.2}% 21
+\BOOKMARK [1][]{section.2.4}{2.4 Sistemas de Recomendaci\363n}{chapter.2}% 22
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Context Aware}{section.2.4}% 23
+\BOOKMARK [1][]{section.2.5}{2.5 La L\363gica de la 3-Ontology}{chapter.2}% 24
+\BOOKMARK [1][]{section.2.6}{2.6 Resumen}{chapter.2}% 25
+\BOOKMARK [0][]{chapter.3}{3 Visi\363n general de la soluci\363n}{}% 26
+\BOOKMARK [1][]{section.3.1}{3.1 Modelamiento}{chapter.3}% 27
+\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 Modelamiento de interacciones}{section.3.1}% 28
+\BOOKMARK [2][]{subsection.3.1.2}{3.1.2 Modelamiento de la detecci\363n de comunidades}{section.3.1}% 29
+\BOOKMARK [2][]{subsection.3.1.3}{3.1.3 La 3-Ontology y las comunidades}{section.3.1}% 30
+\BOOKMARK [1][]{section.3.2}{3.2 Community Cache}{chapter.3}% 31
+\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 Primer nivel de cache}{section.3.2}% 32
+\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Segundo nivel de cache}{section.3.2}% 33
+\BOOKMARK [1][]{section.3.3}{3.3 Componentes de software}{chapter.3}% 34
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Manejo de las interacciones}{section.3.3}% 35
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Detecci\363n de comunidades}{section.3.3}% 36
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Persistencia de comunidades}{section.3.3}% 37
+\BOOKMARK [1][]{section.3.4}{3.4 Integraci\363n de componentes}{chapter.3}% 38
+\BOOKMARK [1][]{section.3.5}{3.5 Resumen}{chapter.3}% 39
+\BOOKMARK [0][]{chapter.4}{4 Servicio para la detecci\363n de comunidades}{}% 40
+\BOOKMARK [1][]{section.4.1}{4.1 Caracterizaci\363n del Servicio}{chapter.4}% 41
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Descripci\363n general}{section.4.1}% 42
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Arquitectura del Servicio}{section.4.1}% 43
+\BOOKMARK [1][]{section.4.2}{4.2 Algoritmos Utilizados}{chapter.4}% 44
+\BOOKMARK [1][]{section.4.3}{4.3 Ejemplo de Funcionamiento}{chapter.4}% 45
+\BOOKMARK [1][]{section.4.4}{4.4 Resumen}{chapter.4}% 46
+\BOOKMARK [0][]{chapter.5}{5 Arquitectura y Dise\361o de componente para RBox}{}% 47
+\BOOKMARK [1][]{section.5.1}{5.1 Descripci\363n Arquitectural}{chapter.5}% 48
+\BOOKMARK [1][]{section.5.2}{5.2 Dise\361o de Clases}{chapter.5}% 49
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Model}{section.5.2}% 50
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Wrapper}{section.5.2}% 51
+\BOOKMARK [2][]{subsection.5.2.3}{5.2.3 Client}{section.5.2}% 52
+\BOOKMARK [2][]{subsection.5.2.4}{5.2.4 Service}{section.5.2}% 53
+\BOOKMARK [2][]{subsection.5.2.5}{5.2.5 Converter}{section.5.2}% 54
+\BOOKMARK [1][]{section.5.3}{5.3 Impacto en el modelo actual}{chapter.5}% 55
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Eventos}{section.5.3}% 56
+\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 DAO}{section.5.3}% 57
+\BOOKMARK [2][]{subsection.5.3.3}{5.3.3 Extensions}{section.5.3}% 58
+\BOOKMARK [1][]{section.5.4}{5.4 Comunicaci\363n entre componentes}{chapter.5}% 59
+\BOOKMARK [1][]{section.5.5}{5.5 Resumen}{chapter.5}% 60
+\BOOKMARK [0][]{chapter.6}{6 Experimentaci\363n}{}% 61
+\BOOKMARK [1][]{section.6.1}{6.1 Descripci\363n del experimento}{chapter.6}% 62
+\BOOKMARK [1][]{section.6.2}{6.2 Caracterizaci\363n de dataset}{chapter.6}% 63
+\BOOKMARK [1][]{section.6.3}{6.3 Resultados}{chapter.6}% 64
+\BOOKMARK [1][]{section.6.4}{6.4 Resumen}{chapter.6}% 65
+\BOOKMARK [0][]{chapter.7}{7 Conclusiones}{}% 66
+\BOOKMARK [1][]{section.7.1}{7.1 Respecto a los objetivos espec\355ficos}{chapter.7}% 67
+\BOOKMARK [1][]{section.7.2}{7.2 Aportes del trabajo}{chapter.7}% 68
+\BOOKMARK [1][]{section.7.3}{7.3 Trabajos futuros}{chapter.7}% 69
+\BOOKMARK [1][]{section.7.4}{7.4 Reflexiones Finales}{chapter.7}% 70
+\BOOKMARK [0][]{chapter*.53}{Referencias}{}% 71
+\BOOKMARK [0][]{section*.54}{Ap\351ndice}{}% 72
+\BOOKMARK [0][]{appendix.Alph1}{A Glosario}{}% 73
+\BOOKMARK [0][]{appendix.Alph2}{B Estructura del CD}{}% 74

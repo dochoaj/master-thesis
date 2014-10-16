@@ -1,0 +1,13 @@
+\resumenCastellano{
+
+El objetivo de esta tesis es verificar si precomputar comunidades mejora la eficiencia de los sistemas de recomendación (SR). Los SR entregan recomendaciones como salida, con el fin de presentar a un usuario activo un conjunto de opciones de su interés, basado en distintos aspectos, uno de ellos son las comunidades a las que el usuario pertenece. La tesis se ha apoyado en un \textit{framework} de eventos colaborativos llamado 3-Ontology, implementado en una API denominado Rbox 2.0 donde la comunidad es una de sus dimensiones esenciales.
+
+Las interacciones entre usuarios y aplicaciones en la Web 2.0 hacen emerger comunidades. Los seguidores de \textit{Twitter} de un usuario forman una comunidad, los que han comprado un mismo libro en \textit{Amazon} también. Los SR hacen uso de comunidades, y típicamente es preciso usar estrategias para detectarlas. No obstante, estas estrategias no están apoyadas por un mecanismo que soporte el proceso de recomendación íntegramente y sus resultados deben ser reprocesados cada vez al momento de computar una recomendación. El contar con un \textit{framework} que estandariza la representación de la información de las distintas interacciones que ocurren en plataformas basadas en la Web 2.0, permite que la detección de comunidades pueda ser realizada de manera estándar. Como añadidura a RBox, se ha construído un mecanismo de abstracción, representación, detección y persistencia - \textit{community cache} - que permite contar con un respaldo de las comunidades ya detectadas en recomendaciones anteriores.
+
+Para validar la eficacia del modelo propuesto, se ha desarrollado un sistema de recomendación, que utiliza el modelo, y recomienda en base a distintas estrategias de detección de comunidades existentes en la literatura. Los escenarios de prueba definidos, muestran que el tiempo promedio necesario para recomendar utilizando la información de las comunidades detectadas con el apoyo del modelo construido es hasta un 7\% menor que cuando se realiza el mismo ejercicio sin él. Como aporte al área de SR, se provee una capa de abstracción al \textit{framework} RBox, que permite detectar, persistir y utilizar en la recomendación, información respecto a las comunidades emergentes de manera eficiente.
+
+\vspace*{0.5cm}
+
+\KeywordsES{\textit{community detection}, Sistemas de Recomendación, Web 2.0, 3-Ontology, \textit{community cache}, \textit{social networking}}
+
+}

@@ -1,0 +1,84 @@
+%--------Conclusiones
+%--------Daniel Ochoa John
+%--------20/07/2014
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\chapter{Conclusiones}
+\label{cap:conclusiones}
+
+En este capítulo, se expone respecto a las conclusiones obtenidas del trabajo de tesis desarrollado. En primer lugar, se describe y evidencia el cumplimiento de los objetivos específicos. Luego, se explicitan los aportes realizados tanto al área de los SR, como al área de detección de comunidades. Posteriormente, se presentan aquellas aristas de investigación futuras, nacidas en base al trabajo aquí expuesto. Para terminar, se enuncian reflexiones finales en relación al presente trabajo de tesis.
+
+\section{Respecto a los objetivos específicos}
+
+Con respecto a los objetivos específicos definidos para el trabajo de tesis:
+
+\begin{enumerate}
+  \item Seleccionar técnicas y/o algoritmos que permitan la detección de comunidades. \newline
+
+  Se evaluaron distintas alternativas de implementación de algoritmos para la detección de comunidades, en el Capítulo 3, en la sección 3.6 se definen aquellos algoritmos que permiten la detección de comunidades (Blondel, Guillaume, Lambiotte, & Lefebvre, 2008; Raghavan, Albert, & Kumara, 2007; Newman, 2006; Rosvall & Bergstrom, 2008; Traag & Bruggeman, 2009).\newline
+
+  Estos algoritmos han sido implementados desde una librería llamada python-igraph. Esta librería ha sido construída en base a un kernel en C, y cuenta con abstracciones hacia ruby, R y python. Precisamente es esta última abstracción la que se utiliza para desarrollar un servicio de tipo REST, al que RBox se conecta, permitiendo la detección de comunidades. Uno de los algoritmos es de tipo no determinista al aplicar un método de Label Propagation, el cual fue incorporado al servicio solamente para disponibilizar todos aquellos algoritmos que igraph provee y no fue utilizado para las posteriores pruebas del sistema. \newline
+
+  \item Definir la arquitectura del servicio que se añadirá a RBox, junto con un proceso de encapsulamiento de los datos del \textit{framework} para estandarizar el consumo del servicio. \newline
+
+  En el Capítulo 3, se describe la arquitectura del servicio que se ha construido para detectar comunidades, que es diagramada en la Figura \ref{fig:serv-im1} muestra el diagrama de la arquitectura definida. El servicio está compuesto de distintas piezas de \textit{software} que permiten recibir, interpretar, calcular y transformar la información desde un formato orientado a vértices y nodos hacia una comunidad. \newline
+
+  Su añadidura a RBox se define en el Capítulo 4, donde se describe una pieza que permite comunicarse con servicios de tipo REST.  En particular, en la sección 4.4 se describe el mecanismo que permite manejar la respuesta del servicio REST hacia una representación de comunidad definida en la 3-Ontology. Este mecanismo (ver Figura \ref{fig:arq-im2}) comprende una comunicación desde una pieza de encapsulamiento de las interacciones almacenadas en el modelo de la 3-Ontology (Wrapper) hasta el consumo  del servicio y reconversión de las comunidades detectadas hacia el esquema. \newline
+
+  Por otra parte, el proceso de encapsulamiento de la información hacia el servicio, forma parte de la pieza Wrapper de \textit{Community Discover}. Esta pieza permite transformar desde el esquema de la 3-Ontology hacia un esquema de grafos con el objetivo de enviarlo como parámetro al momento de consumir el servicio. \newline
+
+  \item Implementar y añadir a RBox un servicio que detecte y persista las comunidades, \textit{community cache}, a partir de los datos encapsulados. \newline
+
+  En el Capítulo 4, se describe una implementación de \textit{Portrait} que considera la detección y persistencia de las comunidades encapsuladas a través del servicio de detección de comunidades. Esta pieza forma parte de \textit{Community Discover} y ha sido añadida como una extensión del Core de RBox. En la Figura \ref{fig:arq-im1} se muestra el diseño de la arquitectura en la que este servicio está inserto. \newline
+
+  El servicio posee un mecanismo llamado \textit{community cache}, que consta de dos niveles. En un primer nivel, determina si la detección y persistencia se realiza únicamente cuando el usuario activo no tiene comunidades asociadas. En el segundo nivel, tiene un mecanismo de control respecto a la persistencia, por cuanto se toma en cuenta el hecho de que la comunidad ya forma parte del modelo de la 3-Ontology, considerando el conjunto de usuarios que la forman. \newline
+
+  El servicio toma como antecedentes a todas las comunidades existentes en el sistema, el cliente del servicio REST de detección de comunidades, una instancia del DAO de RBox para permitir la persistencia de comunidades, una instancia de \textit{\textit{Graph}Wrapper} que encapsule los eventos, que será enviado como \textit{request} al servicio de detección de comunidades, el algoritmo que se utilizará para detectar comunidades, un valor booleano para determinar si se hace uso del primer nivel de \textit{community cache}. \newline
+
+  \item Implementar un algoritmo de recomendación utilizando la información de las comunidades como antecedente. \newline
+
+  En el Capítulo 5 se muestran distintos ejercicios de recomendación basados en las comunidades de un usuario activo, considerando un algoritmo de recomendación de los top N \textit{tags} más utilizados en una comunidad. Los que se busca es medir la performance de la generación de recomendación considerando el tiempo necesario para realizar las operaciones de encapsulación, consumo, transformación y persistencia para detectar comunidades, evaluando si el mecanismo de community-cache existente es realmente una medida de reducción del tiempo necesario para recomendar detectando comunidades a un usuario activo, considerando aquellas comunidades detectadas como una retroalimentación a recomendaciones posteriores. \newline
+
+  \item Analizar tiempos de respuesta obtenidos al monento de generar recomendaciones, con la finalidad de confirmar o descartar la hipótesis planteada. \newline
+
+  En la Sección 5.3 se exponen conclusiones respecto a los resultados obtenidos de la experimentación. Se marcan las diferencias entre la partida “en frío” de una recomendación y la detección de comunidades cuando esta se fuerza para cada recomendación. Los ejercicios han sido realizados considerando tres estrategias distintas de detección de comunidades, diez iteraciones de recomendación y tres escenarios. \newline
+
+  Estos escenarios son: primero, detectando y persistiendo comunidades solamente cuando el usuario no tenga comunidades asociadas; segundo y tercero, detectando y persistiendo comunidades siempre, para cada iteración. Con la salvedad de que el tanto el primer como el segundo escenario consideran a un medio persistente vacío entre la ejecución de distintas estrategias. \newline
+
+  Los resultados del primer caso de pruebas muestran que en la primera iteración el tiempo que se requiere para obtener la recomendación siempre es mayor que en las iteraciones posteriores. Los resultados del segundo caso de pruebas muestran el funcionamiento de la \textit{community cache}, ya que el \textit{framework} no persiste aquellas que ya existen, eliminando duplicidad. Finalmente, en el tercer caso de pruebas el tiempo necesario para otorgar la primera recomendación se ha reducido, en general, ya que existen comunidades que ya han sido detectadas en iteraciones precedentes. \newline
+
+  \item Publicar los resultados en una revista de la especialidad. \newline
+
+  Están en desarrollo dos publicaciones en revistas de la especialidad. Una relacionada con el aporte científico de la mejora en eficiencia de los SR usando el mapping de la 3-Ontology el concepto de \textit{community cache}. La segunda publicación estará basada en la arquitectura que permite construir el \textit{framework} que retroalimenta el esquema de la 3-Ontology con las comunidades detectadas, reduciendo así el tiempo requerido para volver a realizar la misma recomendación. \newline
+
+\end{enumerate}
+
+\section{Aportes del trabajo}
+
+En primer lugar, este trabajo provee un \textit{framework} de detección de comunidades en base a una arquitectura unificada de componentes. Esto facilita la posibilidad de incorporar nuevos métodos de detección de comunidades al servicio presentado, o bien, desarrollar encapsuladores para otro servicio o API que provea prestaciones similares. Se desprende también de lo recién mencionado que, con la incorporación de un API para implementar clientes de tipo REST, se incorpora a RBox la posibilidad de consumir servicios de distinta índole, como análisis de sentimientos, geolocalización o \textit{named entity recognition}. Además, y como la arquitectura orientada a servicios desarrollada en este trabajo es extensible, se pueden incorporar elementos y algoritmos de análisis de redes sociales para el uso y disposición de los sistemas de recomendación que sean implementados en RBox.
+
+En segundo lugar, se ha incorporado a RBox un mecanismo de recomendación basado en comunidades que se retroalimenta de las recomendaciones hechas en el pasado como una cache. Esto permite mejoras tanto en los tiempos necesarios para recomendar contenido a los usuarios, desde la perspectiva de las comunidades a las que pertenecen, como en el control de duplicidad de comunidades que puedan existir, ya que no se persistirá dos veces una misma comunidad.
+
+En tercer lugar, el \textit{framework} que permite transformar las interacciones sociales en grafos de interacciones es un modelo flexible, que permite construir comunidades desde distintos puntos de vista y considerando diferentes interacciones existentes en un dominio en particular. En el caso de este trabajo de tesis, las comunidades fueron construidas a partir de las interacciones ocasionadas por las menciones de los usuarios en \textit{Twitter}. No obstante, nada impide construir comunidades distintas considerando otras interacciones, como \textit{replying}, \textit{following} y \textit{retweeting}.
+
+\section{Trabajos futuros}
+
+En este trabajo se propone e implementa una arquitectura que permite retroalimentar las comunidades en un esquema 3-Ontology a partir de recomendaciones basadas en un usuario activo.  No obstante, simplemente se comienza la exploración de la dimensión de la comunidad y tras esto se vislumbran los siguientes trabajos futuros:
+
+\begin{itemize}
+  \item Incorporar un servicio, plugin o extensión que permita realizar un análisis de redes sociales, orientadas a la dimensión de la comunidad. Permitiendo enriquecer la recomendación en base a la confianza y popularidad de los usuarios que componen las comunidades.
+  \item Explorar la dimensión de los lugares, mediante la incorporación de un servicio, plugin o extensión que explicite los tipos de información espacial utilizados en los sistemas de recomendación.
+  \item Definir una extensión de la arquitectura que permita obtener granularidad y detalle en los datos de las comunidades. Como por ejemplo obtener, en tiempo real desde la fuente de información (sea API, \textit{crawling}, \textit{scrapping}, entre otras), mayor cantidad de datos en relación a un usuario en particular. Esto completaría aún más la construcción dinámica de comunidades en base a las distintas interacciones o tipos de eventos.
+  \item Construir un \textit{dashboard} o herramienta exploratoria que facilite la navegación por los contenedores de sentido de la 3-Ontology, permitiendo a analistas de \textit{social media} y personas interesadas, la toma de decisiones en base al comportamiento e interacciones presentes en el conjunto de datos.
+  \item Construir, a partir de RBox, observatorios de ciertas fracciones de la Web, permitiendo la definición dinámica de extractores de información a un esquema 3-Ontology. Esto permitiría alimentar a RBox con datos de distintas fuentes en base al interés que la entidad que provee recomendaciones defina.
+\end{itemize}
+
+\section{Reflexiones Finales}
+
+Este trabajo de tesis pone fin a dos años de esfuerzo y dedicación que han supuesto un crecimiento sustancial en mi calidad como profesional y como investigador. Las asignaturas del programa de Magíster en Ingeniería Informática de la Universidad son un buen complemento a la formación inicial obtenida en pregrado. Personalmente, en el año 2011, me titulé de Ingeniero de Ejecución en Computación e Informática y, debido al trabajo y la dedicación puesta en la carrera, fui beneficiado por una media beca de arancel para ingresar al programa de Magíster. Esto ha sido un desafío no menor, ya que típicamente el programa está diseñado para que sea completado por ingenieros civiles (con los dos años extra de formación que implica ese plan de estudios). Sin embargo, la motivación principal ha sido sentar un precedente y demostrar a todos los estamentos (sobre todo a mis colegas de carrera) que las capacidades son transversales a la carrera que uno estudie y la motivación que se requiere para completar un programa de postgrado viene principalmente por las aspiraciones del estudiante, a pesar de que muchas veces el trabajo no es buen amigo del estudio y las empresas no están plenamente conscientes de los beneficios que trae para ellos el contar con un estudiante de postgrado en su equipo de ingenieros. En ese sentido, el desafío que hay que asumir ahora es el de abrir camino a las generaciones que vienen con el hecho de intentar cambiar la tendencia nacional, demostrando pragmáticamente que el rendimiento y el conocimiento de un profesional con postgrado es aporte más que relevante tanto para la línea de innovación de las empresas, como para la línea de negocios.
+
+El programa de postgrado, en términos profesionales, ha sido un aporte significativo. A pesar de que muchas veces sus contenidos no están actualizados en base a las actuales tendencias de la profesión, si me ha instado a no dejar de estudiar y estar a la vanguardia en un mundo tremendamente competitivo, en el que las tecnologías, patrones, arquitecturas y tendencias no viven más de dos años. Se destaca, sin lugar a dudas, el conocimiento adquirido al trabajar a la par de compañeros y profesores talentosos, en especial con aquellos que pertenecen al grupo FONDEF, que lidera el Dr. Edmundo Leiva y en el cual participé. La necesidad de entregar, en este trabajo, una solución tecnológica cuya calidad estuviera a la altura de los distintos componentes incorporados ya al proyecto, ha sido otra manera de impulsar el aprendizaje, la lectura y mejorar progresivamente mis habilidades en diseño y desarrollo de soluciones tecnológicas que están inmersas en un contexto de uso constante y no quedan guardadas en la estantería.
+
+El haber trabajado en una tesis enfocada a \textit{social media} ha supuesto la continuación de una inquietud que nace en el desarrollo de mi memoria de pregrado y que sentí inconclusa. Me ha permitido investigar, analizar y conocer distintos aspectos de un tema que hoy mueve y tendencia fuertemente el uso de Internet como plataforma fundamental para la masificación de contenidos y las relaciones sociales mediada por tecnología. Esta tendencia está manteniéndose en el tiempo y alcanzando distintas aristas, desde meramente compartir información, hasta proveer, con ayuda de la nube, distintos servicios de análisis de tópicos y comunidades enfocadas al \textit{business intelligence} y el cultivo de la inteligencia colectiva. En mi opinión, lo colectivo y lo comunitario son los negocios del mañana y el aplicar los conocimientos involucrados en esta tesis puede contribuir, aunque sea en parte, a esta tendencia.

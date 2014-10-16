@@ -1,0 +1,74 @@
+\documentclass[logo,civil]{tesis-pregrado}
+%opciones: logo,dosdirectores,civil,ejecucion,propuesta,txfonts
+\usepackage{float,lscape, booktabs}
+\keywords{XML; Social Networks}
+
+\begin{document}
+
+\baselineskip 23pt
+
+% ----------------------------------------------------------
+% ----------- PARTE INICIAL --------------------------------
+\thispagestyle{empty}
+\include{cubierta}
+% \thispagestyle{empty}
+% \include{caratula}
+\makecopyright
+\newpage
+\mbox{}
+\thispagestyle{empty}
+% ----------------------------------------------------------
+% ----------- PRIMERA PARTE --------------------------------
+\frontmatter
+% ### Resumen e Indices ####
+\include{chapters/gracias}
+\include{chapters/dedicatoria}
+\include{chapters/resumen}
+\include{chapters/abstract}
+\pagestyle{fancy}
+\fancyhead[L]{\slshape \leftmark}
+\fancyhead[C]{}
+\fancyhead[R]{\thepage}
+\tableofcontents        %% Indice general
+\listoffigures          %% Indice de figuras
+\listoftables           %% Indice de tablas
+%\listofalgorithms       %% Indice de algoritmos
+
+% ----------------------------------------------------------
+% ----------- SEGUNDA PARTE --------------------------------
+\mainmatter
+% ### Configuración del header ###
+\pagestyle{fancy}
+\fancyhead[L]{\slshape \leftmark}
+\fancyhead[C]{}
+\fancyhead[R]{\thepage}
+\pagenumbering{arabic}
+
+% ### Capitulos de la tesis ###
+\include{chapters/1-intro}
+\include{chapters/2-marcoteorico}
+\include{chapters/3-vision}
+\include{chapters/3-servicio}
+\include{chapters/4-arquitectura}
+\include{chapters/5-experimentacionref}
+\include{chapters/6-conclusion}
+
+% ----------------------------------------------------------
+% ----------- TERCERA PARTE --------------------------------
+% \backmatter %Elimina la numeración
+% ### Bibliografía de este documento ###
+\nocite{*}
+\bibliographystyle{apa-good}
+\bibliography{TesisMagister}
+
+% ----------------------------------------------------------
+% ----------- CUARTA PARTE ---------------------------------
+\appendix
+\addappheadtotoc %agregar Apéndice al índice
+\noappendicestocpagenum %quitar número de páginas a los apéndices
+% ### ANEXOS ###
+\include{chapters/A1-glosario} % Glosario
+\include{chapters/A2-estructura} % CD
+% \include{chapters/anexo-codigo-1} % Código fuente
+
+\end{document}
